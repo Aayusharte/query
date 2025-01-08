@@ -1,0 +1,30 @@
+#database
+Create a database shirts_db.
+
+#table
+create table shirts.
+contents of table
+  shirts_id INT PRIMARY KEY AUTO_INCREMENT,
+  article VARCHAR (50) NOT NULL,
+  color VARCHAR (50) NOT NULL,
+  shirt_size VARCHAR (1) NOT NULL,
+  last_worn INT NOT NULL
+
+
+#insert data
+
+
+1.add a new  shirt (purple, polo shirt,Mast_worn:50)
+2.print article and color columns from the database.
+3.print out all the medium shirts.
+4.update shirt size as L for all polo shirts.
+5.update last worn=15 days to last worn=0
+6.update shirt size to XS and color as off white for all the white color shirts
+7.delete all shirts which were not worn over 200 days.
+8.delete all tank tops.
+9.delete all the shirts from the table.
+10.drop the shirt table.
+
+
+
+
